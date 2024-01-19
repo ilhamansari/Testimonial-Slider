@@ -1,6 +1,6 @@
 import React from "react";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
-import {FiChevronLeft, FiChevronRight} from "react-icons/fi"
+
 
 export const Card = (props) => {
   let review = props.review;
@@ -14,12 +14,10 @@ export const Card = (props) => {
       </div>
 
       <div className="text-center mt-7 ">
-        <p className="font-bold text-2xl capitalize">{review.name}</p>
-      </div>
-
-      <div className="text-center mt-7 ">
+        <p className="font-bold text-2xl capitalize tracking-wider">{review.name}</p>
         <p className="text-violet-300 uppercase text-sm">{review.job}</p>
       </div>
+
 
       <div className="text-violet-400 mx-auto mt-5" >
         <FaQuoteLeft />
@@ -33,14 +31,7 @@ export const Card = (props) => {
         <FaQuoteRight />
       </div>
 
-      <div className="flex text-3xl mt-5 gap-3 text-violet-400 font-bold mx-auto">
-        <button className="cursor-pointer hover:text-violet-500"><FiChevronLeft /></button>
-        <button className="cursor-pointer hover:text-violet-500"><FiChevronRight /></button>
-      </div>
-
-      <div className="">
-        <button className="bg-violet-400 hover:bg-violet-500 transition-all duration-200 cursor-pointer px-10 py-2 rounded-md font-bold text-white text-lg">Surprise Me</button>
-      </div>
+    
     </div>
   );
 };

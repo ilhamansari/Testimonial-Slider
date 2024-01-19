@@ -16,28 +16,28 @@ const reviews = [
         id: 2,
         name: "Zaid Siddiqui",
         job: "React Developer",
-        image: {Zaid},
+        image: Zaid,
         text: "I am glad to be a software engineer. Finally, 4 years of hard work and intense coding paid off, and now I am a SDE at Amazon. I look forward to switching very soon to Google."
     },
     {
         id: 3,
         name: "Inaque Alam",
         job: "Portfolio Manager",
-        image: {Inaque},
+        image: Inaque,
         text: "I am glad to be a software engineer. Finally, 4 years of hard work and intense coding paid off, and now I am a SDE at Amazon. I look forward to switching very soon to Google."
     },
     {
         id: 4,
         name: "Yaseer Hassan",
         job: "Data Analyst",
-        image: {Yaseer},
+        image: Yaseer,
         text: "I am glad to be a software engineer. Finally, 4 years of hard work and intense coding paid off, and now I am a SDE at Amazon. I look forward to switching very soon to Google."
     },
     {
         id: 5,
         name: "Tausif Hussain",
         job: "HTML Developer",
-        image: {Tausif},
+        image: Tausif,
         text: "I am glad to be a software engineer. Finally, 4 years of hard work and intense coding paid off, and now I am a SDE at Amazon. I look forward to switching very soon to Google."
     }
 ]
